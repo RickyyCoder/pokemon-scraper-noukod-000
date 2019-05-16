@@ -5,6 +5,8 @@ class Pokemon
     type = get_pokemon_type_from(node)
     
   def initialize(name, type, db)
+    @name = name
+    @type = type
     @db = db
   end
   
